@@ -1,0 +1,303 @@
+:root {
+    --main-title-color: #212121;
+    --accent-color: #2196F3;
+    --background-color: #fff;
+    --second-background-color: #F5F4FA;
+    --brand-background-color: #2F303A; 
+   }
+
+p,
+ul,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
+ul {
+    padding-left: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #757575;
+}
+
+.container {
+    width: 1600px;
+    margin: 0 auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    outline: 1px solid red;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Header styles */
+
+.header {
+    background-color: var(--background-color);
+    display: flex;
+    align-items: center;
+}
+
+.nav,
+.contacts {
+    display: flex;
+    align-items: center;
+}
+
+.border {
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: #ECECEC;
+}
+/* Header logo*/
+
+.logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);
+    text-decoration: none;
+    padding-left: 215px;
+}
+    
+.header-logo {
+    color: var(--main-title-color);
+}
+
+/* Footer logo */
+.footer-logo { 
+    color: var(--background-color);
+}
+
+/* Header Links */
+
+.links {
+    display: flex;
+    align-items: center;
+    width: 294px;
+    margin-left: 93px;
+    margin-right: 331px;    
+}
+
+.link, 
+.contact-link {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
+      
+}
+
+.header-item {
+    margin-right: 50px;
+    padding: 32px 0;
+}
+
+.header-item:last-child {
+    margin-right: 0;    
+}
+
+.link {
+    color: var(--main-title-color);
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+.link:hover, 
+.link:focus {
+    color:  var(--accent-color);
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.contact-link {
+    color: #757575;   
+}
+
+.contact-link:hover, 
+.contact-link:focus {
+    color: var(--accent-color);
+}
+
+/* Main content */
+
+/* Titles color */
+.title {
+    color: var(--main-title-color);
+}
+
+/* Booking secion */
+.booking-section {
+    background-color: var(--brand-background-color);
+}
+
+.tagline {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;    
+    color: var(--background-color);
+}
+
+.booking-button {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.88;  
+    letter-spacing: 0.06em;
+    font-family: inherit;    
+    color: var(--background-color);
+    background: #188CE8;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Section features and services */
+
+.visually-hidden {
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    border: 0;
+    padding: 0;
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    margin: -1px;
+}
+
+.section-features, 
+.section-services {
+    background-color: var(--background-color);
+}
+
+.heading-features {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;    
+}
+
+.paragraph-features {
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+}
+
+.paragraph-features:hover, 
+.paragraph-features:focus {
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Heading sesvices and teem */
+.heading-services, 
+.heading-teem {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Section about our teem */
+.section-teem {
+    background-color: var(--second-background-color);
+}
+
+.heading-teem {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.name {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.position {    
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+/* Portfolio page */
+.filter {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    font-family: inherit;
+    background-color: var(--second-background-color);
+}
+
+.filter:hover, 
+.filter:focus {
+    color: var(--background-color);
+    background-color: var(--accent-color);
+}
+
+.heading-project {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+
+.category {    
+    line-height: 1.88;
+    letter-spacing: 0.03em;
+}
+
+
+/* Footer */
+
+.footer {
+    background-color: var(--brand-background-color);
+}
+
+/* Links to contacts in a footer */
+.address, 
+.footer-contact {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71; 
+    letter-spacing: 0.03em;    
+    text-decoration: none;
+}
+
+.address {
+    color: var(--background-color);
+}
+
+.footer-contact {
+    color: rgba(255, 255, 255, 0.6);    
+}
+
+.address:hover 
+.address:focus 
+.footer-contact:hover 
+.footer-contact:focus {
+    color: var(--accent-color);
+}
