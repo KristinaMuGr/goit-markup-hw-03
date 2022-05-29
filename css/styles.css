@@ -142,6 +142,10 @@ body {
     background-color: var(--brand-background-color);
 }
 
+.container-btn {
+    flex-direction: column;
+}
+
 .tagline {
     font-weight: 900;
     font-size: 44px;
@@ -150,6 +154,10 @@ body {
     letter-spacing: 0.06em;
     text-transform: uppercase;    
     color: var(--background-color);
+    padding-top: 200px;
+    padding-left: 452px;
+    padding-right: 452px;
+    margin-bottom: 30px;          
 }
 
 .booking-button {
@@ -163,6 +171,8 @@ body {
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     cursor: pointer;
+    width: 200px;
+    margin-bottom: 200px;
 }
 
 /* Section features and services */
@@ -277,7 +287,16 @@ body {
     background-color: var(--brand-background-color);
 }
 
-/* Links to contacts in a footer */
+.logo-footer {
+    padding-top: 60px;
+    margin-bottom: 20px;
+}
+
+.footer-list {
+    padding-left: 215px;
+    padding-bottom: 60px;
+}
+
 .address, 
 .footer-contact {
     font-style: normal;
@@ -285,6 +304,11 @@ body {
     line-height: 1.71; 
     letter-spacing: 0.03em;    
     text-decoration: none;
+}
+
+.footer-container {
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .address {
