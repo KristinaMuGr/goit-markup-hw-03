@@ -45,8 +45,6 @@ img {
 
 .header {
     background-color: var(--background-color);
-    display: flex;
-    align-items: center;
 }
 
 .nav,
@@ -315,6 +313,21 @@ img {
 }
 
 /* Portfolio page */
+
+.portfolio-container {
+    flex-wrap: wrap;
+}
+
+.filter-list {
+    display: flex;
+    align-items: center;
+}
+
+.filter-item:not(:last-child) {
+    margin-right: 8px;
+}
+    
+
 .filter {
     font-weight: 500;
     font-size: 16px;
